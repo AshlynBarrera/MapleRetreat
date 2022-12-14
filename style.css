@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
 
 
 body{
     background-color: rgb(31, 38, 34);
-    color: antiquewhite;
+    color: rgb(253, 246, 236);
     font-family: 'Raleway', sans-serif;
     padding: 0px;
     margin: 0px;
@@ -30,6 +31,7 @@ header ul{
 header li{
     list-style: none;
     padding: 20px;
+    z-index: 1;
 }
 
 header a{
@@ -43,13 +45,26 @@ header a{
 
 /* slogan  */
 #slogan{
-    border: 2px solid whitesmoke ; 
+    border: 2px solid  rgb(245, 245, 245,0.5);
+    font-family: 'Cinzel', serif; 
     display: flex;
     justify-content: center;
     margin-top: 10px;
     border: none;
-    border-bottom: white solid 8px;
-    font-size: x-large;
+    border-bottom: rgb(245, 245, 245,0.5)solid 8px;
+    font-size: xx-large;
+}
+#slogantwo{
+    font-family: 'Cinzel', serif; 
+    position: absolute;
+    display: flex;
+    margin: 0;
+    left: 5px;
+    bottom: -8em;
+    border: none;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: oblique ;
 }
     
 /* Images */
@@ -68,7 +83,7 @@ header a{
     height: 650px;
     position:absolute;
     right: 0px;
-    top: 55em;
+    top: 40em;
     border: #e6e6e6 solid 3px ;
 
 }
@@ -78,33 +93,150 @@ header a{
 
 #fb{
     text-decoration: none;
+    font-weight: bold;
     display: flex;
     position: absolute;
-    bottom:  -60em;;
+    bottom: -49em;
     left: 30em;
     color: antiquewhite;
     padding-bottom: 8em;
+    z-index: 2;
 }
 
 #insta{
     text-decoration: none;
+    font-weight: bold;
     display: flex;
     position: absolute;
-    bottom:  -60em;
+    bottom: -49em;
     left: 40em;
     color: antiquewhite;
     padding-bottom: 8em;
+    z-index: 2;
 }
 
 #tw{
     text-decoration: none;
+    font-weight: bold;
     display: flex;
     position: absolute;
-    bottom: -60em;
+    bottom: -49em;
     left: 50em;
     color: antiquewhite;
     padding-bottom: 8em;
+    z-index: 2;
 }
 
-/* icon */
+#bottomline{
+    background-color: rgb(245, 245, 245,0.5);
+    position: absolute;
+    display: flex;
+    margin: 0;
+    bottom: -45em;
+    right: 0px;
+    padding: 70px;
+    width: 100%;
+}
+
+/* Reviews  */
+
+#reviewone{
+    border: rgba(151, 209, 151, 0.5);
+    border-radius: 20px;
+    background-color:rgba(151, 209, 151, 0.4) ;
+    background-size: 90%;
+    font-size: medium;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    top: 48em;
+    right: 10px;
+    z-index: 2;
+    padding: 50px;
+}
+
+#reviewTwo{
+    border: rgba(203, 245, 203, 0.5);
+    border-radius: 20px;
+    background-color:rgba(203, 245, 203, 0.5) ;
+    background-size: 90%;
+    font-size: medium;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    top: 39em;
+    right: 5px;
+    z-index: 2;
+    padding: 50px;
+
+}
+
+#reviewThree{
+    border: rgba(151, 209, 151, 0.5);
+    border-radius: 20px;
+    background-color:rgba(151, 209, 151, 0.5) ;
+    background-size: 90%;
+    font-size: medium;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    top: 25em;
+    right: 20px;
+    z-index: 2;
+    padding: 40px;
+}
+
+
+  /* Double Back */
+  #homebackg{
+    background-color:rgba(198, 222, 198, 0.5) ;
+    background-size: 90%;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    top: 3em;
+    right: 1.5em;
+    padding: 15px 30px;
+    width: 2px;
+}
+
+
+/* Doublecolor */
+#homebackg{
+    background-color:rgba(198, 222, 198, 0.5) ;
+    background-size: 90%;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    top: 3em;
+    right: 1em;
+    padding: 15px 30px;
+    width: 2px;
+}
+#aboutbackg{
+    background-color:rgba(198, 222, 198, 0.5) ;
+    background-size: 90%;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    top: 3em;
+    right: 14.5em;
+    padding: 15px 30px;
+    width: 12px;
+}
+
+#contactbackg{
+    background-color:rgba(198, 222, 198, 0.5) ;
+    background-size: 90%;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    top: 3em;
+    right: 6.7em;
+    padding: 15px 30px;
+    width: 40px;
+}
+
+
+
 
