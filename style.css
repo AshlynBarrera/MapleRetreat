@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+
+body{
+    background-color: rgb(31, 38, 34);
+    color: antiquewhite;
+    font-family: 'Raleway', sans-serif;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+/* NavBar */
+.container{
+    overflow:hidden;
+    margin: auto;
+}
+
+header > .container{
+    display: flex;
+    justify-content:space-between;  
+}
+
+header ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header li{
+    list-style: none;
+    padding: 20px;
+}
+
+header a{
+    color: #e6e6e6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+
+/* slogan  */
+#slogan{
+    border: 2px solid whitesmoke ; 
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border: none;
+    border-bottom: white solid 8px;
+    font-size: x-large;
+}
+    
+/* Images */
+#coffeee{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    left: em; 
+    border-bottom: #e6e6e6 solid 3px ;  }
+
+
+#vieww{
+    width: 650px;
+    height: 650px;
+    position:absolute;
+    right: 0px;
+    top: 55em;
+
+}
+
+
+/* Bottom Contacts */
+
+#fb{
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    bottom:  -60em;;
+    left: 30em;
+    color: antiquewhite;
+    padding-bottom: 8em;
+}
+
+#insta{
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    bottom:  -60em;
+    left: 40em;
+    color: antiquewhite;
+    padding-bottom: 8em;
+}
+
+#tw{
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    bottom: -60em;
+    left: 50em;
+    color: antiquewhite;
+    padding-bottom: 8em;
+}
