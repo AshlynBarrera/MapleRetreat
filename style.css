@@ -58,7 +58,9 @@ header a{
     height: 700px;
     position: absolute;
     left: em; 
-    border-bottom: #e6e6e6 solid 3px ;  }
+    border: #e6e6e6 solid 3px ;  
+
+}
 
 
 #vieww{
@@ -67,6 +69,7 @@ header a{
     position:absolute;
     right: 0px;
     top: 55em;
+    border: #e6e6e6 solid 3px ;
 
 }
 
@@ -102,3 +105,6 @@ header a{
     color: antiquewhite;
     padding-bottom: 8em;
 }
+
+/* icon */
+
