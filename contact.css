@@ -57,11 +57,9 @@ header a{
 
 /* Contact form */
 #form{
-
- padding-left: 25em;
- padding-top: 3em;
- padding-bottom: 5em;
-
+ padding-left: 20em;
+ padding-top: 3em; 
+ padding-bottom: 5em; 
 }
 
   form{
