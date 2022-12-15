@@ -127,6 +127,10 @@ header a{
     z-index: 2;
 }
 
+a:hover {
+    transform: scale(0.95);
+  }
+
 #bottomline{
     background-color: rgb(245, 245, 245,0.5);
     position: absolute;

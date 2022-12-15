@@ -48,6 +48,10 @@ header a{
     font-size: 18px;
 }
 
+a:hover {
+    transform: scale(0.95);
+  }
+
 #slogan{
     border: 2px solid  rgb(245, 245, 245,0.5);
     font-family: 'Cinzel', serif; 
@@ -94,6 +98,10 @@ header a{
     padding-bottom: 8em;
     z-index: 2;
 }
+
+a:hover {
+    transform: scale(0.95);
+  }
 
 #bottomline{
     background-color: rgb(245, 245, 245,0.5);
