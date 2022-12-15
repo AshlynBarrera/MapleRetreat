@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(31, 38, 34);
+    color: antiquewhite;
+    font-family: 'Raleway', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* NavBar */
+.container{
+    overflow:hidden;
+    margin: auto;
+    margin-top: 23px;
+}
+
+header > .container{
+    display: flex;
+    justify-content:space-between;  
+}
+
+header ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+header li{
+    list-style: none;
+    padding: 20px;
+    z-index: 1;
+}
+
+header a{
+    color: #e6e6e6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#slogan{
+    border: 2px solid  rgb(245, 245, 245,0.5);
+    font-family: 'Cinzel', serif; 
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+    border: none;
+    border-bottom: rgb(245, 245, 245,0.5)solid 8px;
+    font-size: xx-large;
+    padding-bottom: 1em;
+}
+
+/* Bottom Contacts */
+
+#fb{
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    bottom: -34em;
+    left: 30em;
+    color: antiquewhite;
+    padding-bottom: 8em;
+    z-index: 2;
+}
+
+#insta{
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    bottom: -34em;
+    left: 40em;
+    color: antiquewhite;
+    padding-bottom: 8em;
+    z-index: 2;
+}
+
+#tw{
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    bottom: -34em;
+    left: 50em;
+    color: antiquewhite;
+    padding-bottom: 8em;
+    z-index: 2;
+}
+
+#bottomline{
+    background-color: rgb(245, 245, 245,0.5);
+    position: absolute;
+    display: flex;
+    margin: 0;
+    bottom: -30em;
+    right: 0px;
+    padding: 70px;
+    padding-bottom: none;
+    width: 100%;
+}
+
+/* DoubleColor*/
+#homebackg{
+    background-color:rgba(198, 222, 198, 0.5) ;
+    background-size: 90%;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    top: 2.5em;
+    right: 1em;
+    padding: 15px 30px;
+    width: 2px;
+}
+
+#aboutbackg{
+    background-color:rgba(198, 222, 198, 0.5) ;
+    background-size: 90%;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    top: 2.5em;
+    right: 14.5em;
+    padding: 15px 30px;
+    width: 12px;
+}
+
+#contactbackg{
+    background-color:rgba(198, 222, 198, 0.5) ;
+    background-size: 90%;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    top: 2.5em;
+    right: 6.5em;
+    padding: 15px 30px;
+    width: 40px;
+}
+
+/* images */
+
+#fogW{
+    width: 700px;
+    height: 700px;
+    border: solid 1px whitesmoke;
+    position: absolute;
+    margin: 0;
+    top: 20em;
+    right: 23em;
+}
+#cabins{
+    width: 500px;
+    height: 500px;
+    border: solid 1px whitesmoke;
+    position: absolute;
+    margin: 0;
+    top: 40em;
+    right: 2em;
+}
+
+/* About */
+
+#aboutone{
+    background-color:rgba(114, 121, 114, 0.5) ;
+    border-radius: 10px;
+    background-size: 90%;
+    font-size: medium;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    top: 39em;
+    left: 8px;
+    z-index: 2;
+    padding: 50px;
+}
+#abouttwo{
+    background-color:rgba(114, 121, 114, 0.5) ;
+    background-size: 90%;
+    border-radius: 10px;
+    font-size: medium;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    top: 24em;
+    left: 20px;
+    z-index: 2;
+    padding: 50px;
+}
+
