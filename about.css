@@ -194,3 +194,15 @@ header a{
     padding: 50px;
 }
 
+/* Social Quote */
+#contactS{
+    border-bottom: rgb(132, 125, 125) solid;
+    font-family:'Cinzel', serif rgb(25, 25, 25) italic;
+    size: 5px;
+    position: absolute;
+    margin: 0;
+    right: 33em;
+   top: 74em;
+}
+
+
