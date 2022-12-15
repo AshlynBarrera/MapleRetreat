@@ -105,11 +105,11 @@ header a{
 
   /* Animation*/
 
-  #form{
-      transition-property:all ;
-     transition-duration: 4s;
-     transition-timing-function: ease-in;
-     transition-delay: 0s;
+  #form:hover{
+    transform: rotate(360deg); 
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
   }
 
   /* DoubleColor*/
