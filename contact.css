@@ -44,6 +44,7 @@ header a{
 }
 
 
+
 #slogan{
     border: 2px solid  rgb(245, 245, 245,0.5);
     font-family: 'Cinzel', serif; 
@@ -154,6 +155,7 @@ header a{
     text-decoration: none;
     display: flex;
     position: absolute;
+    font-weight: bold;
     bottom: -18.9em;
     left: 30em;
     color: antiquewhite;
@@ -165,6 +167,7 @@ header a{
     text-decoration: none;
     display: flex;
     position: absolute;
+    font-weight: bold;
     bottom: -18.9em;
     left: 40em;
     color: antiquewhite;
@@ -176,6 +179,7 @@ header a{
     text-decoration: none;
     display: flex;
     position: absolute;
+    font-weight: bold;
     bottom: -18.9em;
     left: 50em;
     color: antiquewhite;
@@ -183,6 +187,9 @@ header a{
     z-index: 2;
 }
 
+a:hover {
+    transform: scale(0.95);
+  }
 
 /* div lines  */
 #bottomline{

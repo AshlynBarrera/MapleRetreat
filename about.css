@@ -70,6 +70,7 @@ a:hover {
     text-decoration: none;
     display: flex;
     position: absolute;
+    font-weight: bold;
     bottom: -34em;
     left: 30em;
     color: antiquewhite;
@@ -81,6 +82,7 @@ a:hover {
     text-decoration: none;
     display: flex;
     position: absolute;
+    font-weight: bold;
     bottom: -34em;
     left: 40em;
     color: antiquewhite;
@@ -92,6 +94,7 @@ a:hover {
     text-decoration: none;
     display: flex;
     position: absolute;
+    font-weight: bold;
     bottom: -34em;
     left: 50em;
     color: antiquewhite;
