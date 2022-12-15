@@ -252,6 +252,18 @@ a:hover {
    top: 89em;
 }
 
+/* Footer */
+#copywrite{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: bold;
+    font-size: small;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    bottom: -59em;
+    left: 0;
+}
+
 
 
 
